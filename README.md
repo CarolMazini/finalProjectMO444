@@ -1,4 +1,6 @@
 # finalProjectMO444
+Caroline Mazini Rodrigues 211854
+
 source code final project MO444
 
 dataset of Grenfell Tower images
