@@ -1,10 +1,11 @@
+#Caroline Mazini Rodrigues 211854
+
 from keras.applications.vgg16 import VGG16, preprocess_input
 from keras.preprocessing import image
 from multiprocessing import Process
 from matplotlib import pyplot as plt
 from sklearn.svm import SVC
 from sklearn.metrics import f1_score
-from sklearn.ensemble import BaggingClassifier
 from sklearn.externals import joblib
 from tqdm import tqdm
 import time
@@ -22,7 +23,6 @@ from keras.layers import AveragePooling2D, GlobalAveragePooling2D, Input
 from keras.models import Model
 from sklearn.metrics import classification_report
 from sklearn.metrics import accuracy_score
-from sklearn.svm import SVC
 from sklearn.cluster import AgglomerativeClustering
 import math
 from sklearn.semi_supervised import LabelPropagation,LabelSpreading
